@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane prefHeight="798.0" prefWidth="1016.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tk.st0pcha.paintjavafx.Controller">
+
+    <top>
+        <VBox>
+            <ToolBar>
+                <HBox alignment="CENTER" spacing="5">
+                    <Button fx:id="save" mnemonicParsing="false" onAction="#save" text="Save Picture" />
+                    <CheckBox fx:id="eraser" mnemonicParsing="false" text="Eraser" />
+                    <TextField fx:id="size"  prefHeight="25.0" prefWidth="72.0" promptText="Size" />
+                    <ColorPicker fx:id="colorPicker">
+                        <value>
+                            <Color />
+                        </value></ColorPicker>
+                </HBox>
+            </ToolBar>
+        </VBox>
+    </top>
+    <left>
+        <Canvas fx:id="canvas" height="765.0" width="1028.0" BorderPane.alignment="CENTER" />
+    </left>
+</BorderPane>
