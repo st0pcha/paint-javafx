@@ -9,6 +9,6 @@
 3. Run app with `java -jar paint.jar`
 
 Other way:
-1. Download [paint.jar](https://github.com/st0pcha)
+1. Download [paint.jar](https://github.com/st0pcha/paint-javafx/releases/download/paint/paint.jar)
 2. Run app with `java -jar paint.jar`
 
